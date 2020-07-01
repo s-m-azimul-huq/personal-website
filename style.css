@@ -18,31 +18,31 @@ section{
 .name-highlight{
     color:#fa128e;
 }
-.half-width{
+.intro-half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 1%;
     height: 55%;
 }
-.half-width{
+.bio-half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 1%;
     height: 55%;
 }
-.single-div{
+.intro-single-div{
     margin-left: 115px;
     margin-top: 45px;
     padding: 0%;
 }
-.half-width img{
+.intro-half-width img{
     width: 100%;
     height: 175%;
     margin-top: 75px;
 }
-.half-width img{
+.bio-half-width img{
     width: 100%;
     height: 175%;
     margin-top: 75px;
@@ -89,7 +89,7 @@ section{
     background-image: url(latest-work-bg.png);
     background-size: cover;
 }
-.client{
+.client-sec{
     text-align: center;
     background-image: url(footer-bg.png);
     background-size:cover;
@@ -104,16 +104,16 @@ section{
     margin-top: 70px;
     font-size: 30px;
 }
-#client-para{
+#client-p{
     font-size: 17px;
 }
 .message{
     background-image: linear-gradient(45deg,#FF1493,#fa128e);
     color: white;
-    padding: 15px 40px;
+    padding: 40px 40px;
     margin: 70px 420px 0px 405px;
     border-radius: 5px;
-   font-size: 25px;
+   font-size: 20px;
     box-shadow: 3px 6px 25px hotpink;
 }
 a:visited{
@@ -121,4 +121,7 @@ a:visited{
 }
 a:hover{
     color:greenyellow;
+}
+#email{
+    font-size: 30px;
 }
